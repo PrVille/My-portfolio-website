@@ -142,7 +142,7 @@ const Projects = () => {
       </Page.Header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-32 mt-24 text-zinc-800">
-        <Project>
+        {/* <Project>
           <Project.Image href="#" src="placeholder.png" />
           <Project.Title title="Workout Tracker" href="#" />
           <Project.Chips>
@@ -192,7 +192,7 @@ const Projects = () => {
             <Project.Links.Live href="#" />
             <Project.Links.GitHub href="#" />
           </Project.Links>
-        </Project>
+        </Project> */}
 
         <Project>
           <Project.Image
