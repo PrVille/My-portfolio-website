@@ -229,35 +229,35 @@ const Home = () => {
         </Page.Header>
       </Page>
 
-      <div class="mt-16 sm:mt-20">
-        <div class="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-          <div class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
+      <div className="mt-16 sm:mt-20">
+        <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
+          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
             <img
-              class="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover"
               src="reindeer.png"
             />
           </div>
-          <div class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl -rotate-2">
+          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl -rotate-2">
             <img
-              class="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover"
               src="camping.png"
             />
           </div>
-          <div class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
+          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
             <img
-              class="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover"
               src="slush.png"
             />
           </div>
-          <div class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
+          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl rotate-2">
             <img
-              class="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover"
               src="band.png"
             />
           </div>
-          <div class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl -rotate-2">
+          <div className="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 dark:bg-zinc-800 sm:w-72 sm:rounded-2xl -rotate-2">
             <img
-              class="absolute inset-0 h-full w-full object-cover"
+              className="absolute inset-0 h-full w-full object-cover"
               src="luna-jump.png"
             />
           </div>
