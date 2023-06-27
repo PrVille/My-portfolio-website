@@ -4,7 +4,7 @@ import ArticleListItem from "../components/ArticleListItem"
 
 const DateTime = ({ children }) => {
   return (
-    <div class="mt-1 hidden md:flex relative z-10 order-first mb-3 items-center text-sm text-zinc-400 dark:text-zinc-500">
+    <div className="mt-1 hidden md:flex relative z-10 order-first mb-3 items-center text-sm text-zinc-400 dark:text-zinc-500">
       {children}
     </div>
   )
@@ -20,10 +20,10 @@ const Articles = () => {
           collected in chronological order.
         </Page.Subtitle>
       </Page.Header>
-      <div class="mt-16 sm:mt-20">
-        <div class="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
-          <div class="flex max-w-3xl flex-col space-y-16">
-            <div class="md:grid md:grid-cols-4 md:items-baseline">
+      <div className="mt-16 sm:mt-20">
+        <div className="md:border-l md:border-zinc-100 md:pl-6 md:dark:border-zinc-700/40">
+          <div className="flex max-w-3xl flex-col space-y-16">
+            <div className="md:grid md:grid-cols-4 md:items-baseline">
               <div className="md:col-span-3">
                 <ArticleListItem>
                   <ArticleListItem.TitleLink to="/articles/simplifying-crud-operations-on-a-normalized-state-with-redux-toolkit">
@@ -45,7 +45,7 @@ const Articles = () => {
               <DateTime>April 8, 2023</DateTime>
             </div>
 
-            <div class="md:grid md:grid-cols-4 md:items-baseline">
+            <div className="md:grid md:grid-cols-4 md:items-baseline">
               <div className="md:col-span-3">
                 <ArticleListItem>
                   <ArticleListItem.TitleLink to="/articles/react-performance-optimization">
@@ -68,7 +68,7 @@ const Articles = () => {
               <DateTime>February 22, 2023</DateTime>
             </div>
 
-            <div class="md:grid md:grid-cols-4 md:items-baseline">
+            <div className="md:grid md:grid-cols-4 md:items-baseline">
               <div className="md:col-span-3">
                 <ArticleListItem>
                   <ArticleListItem.TitleLink to="/articles/implementing-json-web-token-authentication">

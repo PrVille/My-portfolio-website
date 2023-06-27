@@ -9,7 +9,7 @@ const Header = ({ children }) => {
 const DateTime = ({ children }) => {
   return (
     <div className="flex items-center text-zinc-400 dark:text-zinc-500 border-s-2 border-zinc-300 dark:border-zinc-600">
-      <h3 class="ml-3">{children}</h3>
+      <h3 className="ml-3">{children}</h3>
     </div>
   )
 }
