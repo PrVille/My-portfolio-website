@@ -106,7 +106,7 @@ const Header = () => {
                   to="/"
                 >
                   <img
-                    src="../../public/me.png"
+                    src="/me.png"
                     className="rounded-full object-cover"
                   />
                 </Link>
