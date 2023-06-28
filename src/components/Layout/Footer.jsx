@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom"
+import VisitorCounter from "../VisitorCounter"
 
 const Footer = () => {
   return (
@@ -41,10 +42,12 @@ const Footer = () => {
                       Contact
                     </Link>
                   </div>
+
                   <p className="text-sm text-zinc-400 dark:text-zinc-500">
                     © 2023 Ville Prami. All rights reserved.
                   </p>
                 </div>
+                <VisitorCounter />
               </div>
             </div>
           </div>
