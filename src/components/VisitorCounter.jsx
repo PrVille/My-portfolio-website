@@ -10,6 +10,7 @@ const VisitorCounter = () => {
       const fetchedVisitors = await visitorsService.incrementKey("portfolio-home")
       setVisitors(fetchedVisitors)
     }
+
     fetchVisitors()
   }, [])
 
