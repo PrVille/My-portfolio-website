@@ -6,18 +6,10 @@ const VisitorCounter = () => {
   const [visitors, setVisitors] = useState(null)
 
   useEffect(() => {
-    const incrementVisitors = async () => {
-      await visitorsService.incrementKey("portfolio-home")
-    }
-
     const fetchVisitors = async () => {
-      const fetchedVisitors = await visitorsService.getCountForKey(
-        "portfolio-home"
-      )
+      const fetchedVisitors = await visitorsService.incrementKey("portfolio-home")
       setVisitors(fetchedVisitors)
     }
-
-    incrementVisitors()
     fetchVisitors()
   }, [])
 
