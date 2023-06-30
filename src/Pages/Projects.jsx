@@ -28,6 +28,7 @@ import {
   SiExpo,
   SiFreelancer,
   SiTypescript,
+  SiJest,
 } from "react-icons/si"
 import {
   FaDatabase,
@@ -142,9 +143,15 @@ const Projects = () => {
       </Page.Header>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-32 mt-24 text-zinc-800">
-        {/* <Project>
-          <Project.Image href="#" src="placeholder.png" />
-          <Project.Title title="Workout Tracker" href="#" />
+        <Project>
+          <Project.Image
+            href="https://workouttrackerapp.vercel.app/signin"
+            src="workoutTracker.png"
+          />
+          <Project.Title
+            title="Workout Tracker"
+            href="https://workouttrackerapp.vercel.app/signin"
+          />
           <Project.Chips>
             <PersonalChip />
             <FullstackChip />
@@ -154,6 +161,7 @@ const Projects = () => {
             <Skill Icon={SiReact} label="React" />
             <Skill Icon={SiTailwindcss} label="Tailwind CSS" />
             <Skill Icon={SiRedux} label="Redux" />
+            <Skill Icon={SiJest} label="Jest" />
             <Skill Icon={SiExpress} label="Express" />
             <Skill Icon={SiNodedotjs} label="Node.js" />
             <Skill Icon={SiMongodb} label="MongoDB" />
@@ -165,12 +173,12 @@ const Projects = () => {
             sign in page.
           </Project.Description>
           <Project.Links>
-            <Project.Links.Live href="https://expo.dev/@villepr/gym-log" />
-            <Project.Links.GitHub href="https://github.com/PrVille/Gym_Log_App" />
+            <Project.Links.Live href="https://workouttrackerapp.vercel.app/signin" />
+            <Project.Links.GitHub href="https://github.com/PrVille/Workout-tracker" />
           </Project.Links>
         </Project>
 
-        <Project>
+        {/* <Project>
           <Project.Image href="#" src="hennaByShruti.png" />
           <Project.Title title="Henna By Shruti" href="#" />
           <Project.Chips>

@@ -24,6 +24,7 @@ import {
   SiTailwindcss,
   SiGithub,
   SiTypescript,
+  SiJest,
 } from "react-icons/si"
 import { FaDatabase, FaLaptopCode, FaTools } from "react-icons/fa"
 import Tooltip from "../components/Tooltip"
@@ -81,6 +82,7 @@ const Skills = () => {
         </div>
 
         <div className="col-span-3 flex gap-2 flex-wrap">
+          <Skill Icon={SiJest} label="Jest" />
           <Skill Icon={SiGit} label="Git" />
           <Skill Icon={SiGithubactions} label="GitHub Actions" />
           <Skill Icon={SiGithub} label="GitHub" />
