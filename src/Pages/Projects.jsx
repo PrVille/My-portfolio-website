@@ -145,12 +145,12 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-32 mt-24 text-zinc-800">
         <Project>
           <Project.Image
-            href="https://workouttrackerapp.vercel.app/signin"
+            href="https://workouttrackerapp.vercel.app"
             src="workoutTracker.png"
           />
           <Project.Title
             title="Workout Tracker"
-            href="https://workouttrackerapp.vercel.app/signin"
+            href="https://workouttrackerapp.vercel.app"
           />
           <Project.Chips>
             <PersonalChip />
@@ -169,11 +169,11 @@ const Projects = () => {
           <Project.Description>
             A Typescript MERN-stack application for tracking workouts. Check out
             the exercise library, log your gym workouts and track your progress
-            with insightful graphs and statistics. Demo account provided on the
+            with insightful graphs and statistics. Demo account is provided on the
             sign in page.
           </Project.Description>
           <Project.Links>
-            <Project.Links.Live href="https://workouttrackerapp.vercel.app/signin" />
+            <Project.Links.Live href="https://workouttrackerapp.vercel.app" />
             <Project.Links.GitHub href="https://github.com/PrVille/Workout-tracker" />
           </Project.Links>
         </Project>
