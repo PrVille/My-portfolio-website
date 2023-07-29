@@ -2,6 +2,10 @@
 
 My portfolio website
 
+<a href="https://villeprami.vercel.app/">
+    <img src="public/readme-screenshot.png" alt="screenshot" />
+</a>
+
 _Live @ https://villeprami.vercel.app/_
 
 ## 🔧 Technologies & Tools
