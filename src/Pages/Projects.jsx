@@ -169,12 +169,41 @@ const Projects = () => {
           <Project.Description>
             A Typescript MERN-stack application for tracking workouts. Check out
             the exercise library, log your gym workouts and track your progress
-            with insightful graphs and statistics. Demo account is provided on the
-            sign in page.
+            with insightful graphs and statistics. Demo account is provided on
+            the sign in page.
           </Project.Description>
           <Project.Links>
             <Project.Links.Live href="https://workouttrackerapp.vercel.app" />
             <Project.Links.GitHub href="https://github.com/PrVille/Workout-tracker" />
+          </Project.Links>
+        </Project>
+
+        <Project>
+          <Project.Image
+            href="https://frontend-mentor-solutions-mu.vercel.app/"
+            src="frontendMentor.png"
+          />
+          <Project.Title
+            title="Frontend Mentor Solutions"
+            href="https://frontend-mentor-solutions-mu.vercel.app/"
+          />
+          <Project.Chips>
+            <PersonalChip />
+            <FrontendChip />
+          </Project.Chips>
+          <Project.Tech>
+            <Skill Icon={SiTypescript} label="TypeScript" />
+            <Skill Icon={SiReact} label="React" />
+            <Skill Icon={SiTailwindcss} label="Tailwind CSS" />
+          </Project.Tech>
+          <Project.Description>
+            A simple website for my Frontend Mentor challenge solutions. One stop place
+            for all my completed challenges from single components to full
+            webpages built with multiple different technologies.
+          </Project.Description>
+          <Project.Links>
+            <Project.Links.Live href="https://frontend-mentor-solutions-mu.vercel.app/" />
+            <Project.Links.GitHub href="https://github.com/PrVille/frontend-mentor-solutions" />
           </Project.Links>
         </Project>
 
@@ -201,35 +230,6 @@ const Projects = () => {
             <Project.Links.GitHub href="#" />
           </Project.Links>
         </Project> */}
-
-        <Project>
-          <Project.Image
-            href="https://tools-for-devs.vercel.app/"
-            src="devTools.png"
-          />
-          <Project.Title
-            title="Dev Tools"
-            href="https://tools-for-devs.vercel.app/"
-          />
-          <Project.Chips>
-            <PersonalChip />
-            <FrontendChip />
-          </Project.Chips>
-          <Project.Tech>
-            <Skill Icon={SiReact} label="React" />
-            <Skill Icon={SiMui} label="MUI" />
-          </Project.Tech>
-          <Project.Description>
-            A web application for common developer tools, apps and resources in
-            one place including tools like password generator, RGB/HEX
-            converter, lorem ipsum generator, unit converters, timer, code
-            snippets, collection of useful websites and many more.
-          </Project.Description>
-          <Project.Links>
-            <Project.Links.Live href="https://tools-for-devs.vercel.app/" />
-            <Project.Links.GitHub href="https://github.com/PrVille/Dev_Tools" />
-          </Project.Links>
-        </Project>
 
         <Project>
           <Project.Image
@@ -264,6 +264,35 @@ const Projects = () => {
           <Project.Links>
             <Project.Links.Live href="https://expo.dev/@villepr/gym-log" />
             <Project.Links.GitHub href="https://github.com/PrVille/Gym_Log_App" />
+          </Project.Links>
+        </Project>
+
+        <Project>
+          <Project.Image
+            href="https://tools-for-devs.vercel.app/"
+            src="devTools.png"
+          />
+          <Project.Title
+            title="Dev Tools"
+            href="https://tools-for-devs.vercel.app/"
+          />
+          <Project.Chips>
+            <PersonalChip />
+            <FrontendChip />
+          </Project.Chips>
+          <Project.Tech>
+            <Skill Icon={SiReact} label="React" />
+            <Skill Icon={SiMui} label="MUI" />
+          </Project.Tech>
+          <Project.Description>
+            A web application for common developer tools, apps and resources in
+            one place including tools like password generator, RGB/HEX
+            converter, lorem ipsum generator, unit converters, timer, code
+            snippets, collection of useful websites and many more.
+          </Project.Description>
+          <Project.Links>
+            <Project.Links.Live href="https://tools-for-devs.vercel.app/" />
+            <Project.Links.GitHub href="https://github.com/PrVille/Dev_Tools" />
           </Project.Links>
         </Project>
 
