@@ -184,7 +184,7 @@ const Projects = () => {
             src="frontendMentor.png"
           />
           <Project.Title
-            title="Frontend Mentor Solutions"
+            title="Frontend Mentor Challenges"
             href="https://frontend-mentor-solutions-mu.vercel.app/"
           />
           <Project.Chips>
