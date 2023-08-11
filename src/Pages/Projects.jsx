@@ -197,9 +197,11 @@ const Projects = () => {
             <Skill Icon={SiTailwindcss} label="Tailwind CSS" />
           </Project.Tech>
           <Project.Description>
-            A simple website for my Frontend Mentor challenge solutions. One stop place
-            for all my completed challenges from single components to full
-            webpages built with multiple different technologies.
+            A simple website for my Frontend Mentor challenge solutions. One
+            stop place for all my completed challenges from single components and
+            full webpages to games and apps built with multiple different technologies. Check out
+            challenges like rock, paper, scissors game, calculator app and advice
+            generator app.
           </Project.Description>
           <Project.Links>
             <Project.Links.Live href="https://frontend-mentor-solutions-mu.vercel.app/" />
