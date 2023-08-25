@@ -1,6 +1,5 @@
 import Page from "../components/Page"
 import {
-  EnvelopeIcon,
   BriefcaseIcon,
   WrenchScrewdriverIcon,
 } from "@heroicons/react/24/outline"
@@ -12,7 +11,6 @@ import {
   SiExpress,
   SiGithubactions,
   SiMui,
-  SiNpm,
   SiNodedotjs,
   SiReact,
   SiRedux,
@@ -26,9 +24,9 @@ import {
   SiTypescript,
   SiJest,
   SiCodewars,
-  SiFrontendmentor
+  SiFrontendmentor,
+  SiPrisma,
 } from "react-icons/si"
-import { FaDatabase, FaLaptopCode, FaTools } from "react-icons/fa"
 import Tooltip from "../components/Tooltip"
 import Skill from "../components/Skill"
 import ArticleListItem from "../components/ArticleListItem"
@@ -71,6 +69,7 @@ const Skills = () => {
           <Skill Icon={SiExpress} label="Express" />
           <Skill Icon={SiNodedotjs} label="Node.js" />
           <Skill Icon={SiGraphql} label="GraphQL" />
+          <Skill Icon={SiPrisma} label="Prisma" />
           <Skill Icon={SiPostgresql} label="PostgreSQL" />
           <Skill Icon={SiMongodb} label="MongoDB" />
         </div>
@@ -235,7 +234,10 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <SiCodewars size={18} className="fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+              <SiCodewars
+                size={18}
+                className="fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
+              />
             </a>
             <a
               className="group"
@@ -243,7 +245,10 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <SiFrontendmentor size={18} className="fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+              <SiFrontendmentor
+                size={18}
+                className="fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300"
+              />
             </a>
           </div>
         </Page.Header>
