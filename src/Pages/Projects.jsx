@@ -29,6 +29,7 @@ import {
   SiFreelancer,
   SiTypescript,
   SiJest,
+  SiPrisma,
 } from "react-icons/si"
 import {
   FaDatabase,
@@ -145,6 +146,42 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-16 gap-y-32 mt-24 text-zinc-800">
         <Project>
           <Project.Image
+            href="https://json-mock-data.vercel.app/"
+            src="jsonMockData.png"
+          />
+          <Project.Title
+            title="JSON Mock Data API"
+            href="https://json-mock-data.vercel.app/"
+          />
+          <Project.Chips>
+            <PersonalChip />
+            <FullstackChip />
+          </Project.Chips>
+          <Project.Tech>
+            <Skill Icon={SiTypescript} label="TypeScript" />
+            <Skill Icon={SiReact} label="React" />
+            <Skill Icon={SiTailwindcss} label="Tailwind CSS" />
+            <Skill Icon={SiJest} label="Jest" />
+            <Skill Icon={SiExpress} label="Express" />
+            <Skill Icon={SiNodedotjs} label="Node.js" />
+            <Skill Icon={SiPrisma} label="Prisma" />
+            <Skill Icon={SiPostgresql} label="PostgreSQL" />
+          </Project.Tech>
+          <Project.Description>
+            With thousands of lines of tested code, the JSON Mock Data API is a
+            free online REST API designed to simplify the process of generating
+            and managing mock data for developers. Whether you're creating a new
+            application, conducting tests, or need placeholder data, this API
+            has you covered.
+          </Project.Description>
+          <Project.Links>
+            <Project.Links.Live href="https://json-mock-data.vercel.app/" />
+            <Project.Links.GitHub href="https://github.com/PrVille/json-mock-data-api" />
+          </Project.Links>
+        </Project>
+
+        <Project>
+          <Project.Image
             href="https://workouttrackerapp.vercel.app"
             src="workoutTracker.png"
           />
@@ -198,10 +235,10 @@ const Projects = () => {
           </Project.Tech>
           <Project.Description>
             A simple website for my Frontend Mentor challenge solutions. One
-            stop place for all my completed challenges from single components and
-            full webpages to games and apps built with multiple different technologies. Check out
-            challenges like rock, paper, scissors game, calculator app and advice
-            generator app.
+            stop place for all my completed challenges from single components
+            and full webpages to games and apps built with multiple different
+            technologies. Check out challenges like rock, paper, scissors game,
+            calculator app and advice generator app.
           </Project.Description>
           <Project.Links>
             <Project.Links.Live href="https://frontend-mentor-solutions-mu.vercel.app/" />
