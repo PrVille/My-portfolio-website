@@ -26,13 +26,21 @@ import {
   SiCodewars,
   SiFrontendmentor,
   SiPrisma,
+  SiPython,
+  SiScala,
+  SiSqlite,
+  SiCypress,
+  SiVercel,
+  SiVite,
+  SiDocker,
 } from "react-icons/si"
+import { FaDatabase } from "react-icons/fa"
 import Tooltip from "../components/Tooltip"
 import Skill from "../components/Skill"
 import ArticleListItem from "../components/ArticleListItem"
 import { Link } from "react-router-dom"
 
-const Skills = () => {
+const SkillsOg = () => {
   return (
     <div className="flex flex-col border rounded-2xl p-4 sm:p-6 lg:p-8 border-zinc-100 dark:border-zinc-700/40 text-zinc-800">
       <h2 className="text-sm flex items-center font-semibold text-zinc-900 dark:text-zinc-100">
@@ -89,6 +97,87 @@ const Skills = () => {
           <Skill Icon={SiGithub} label="GitHub" />
           <Skill Icon={SiPostman} label="Postman" />
           <Skill Icon={SiVisualstudiocode} label="VS Code" />
+        </div>
+      </div>
+    </div>
+  )
+}
+
+const Skills = () => {
+  return (
+    <div className="flex flex-col border rounded-2xl p-4 sm:p-6 lg:p-8 border-zinc-100 dark:border-zinc-700/40 text-zinc-800">
+      <h2 className="text-sm flex items-center font-semibold text-zinc-900 dark:text-zinc-100">
+        <WrenchScrewdriverIcon className="h-6 w-6 flex-none fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500" />
+        <span className="ml-3">Skills</span>
+      </h2>
+
+      <div className="grid grid-cols-6 gap-4 mt-6">
+        <div className="col-span-2 border-r items-center grid pr-1">
+          <h3 className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
+            Languages
+          </h3>
+        </div>
+        <div className="col-span-4 flex gap-1 flex-wrap">
+          <Skill Icon={SiCss3} label="CSS" />
+          <Skill Icon={SiHtml5} label="HTML" />
+          <Skill Icon={SiJavascript} label="JavaScript" />
+          <Skill Icon={SiTypescript} label="TypeScript" />
+          <Skill Icon={SiPython} label="Python" />
+          <Skill Icon={SiScala} label="Scala" />
+          <Skill Icon={FaDatabase} label="SQL" />
+          <Skill Icon={SiGraphql} label="GraphQL" />
+        </div>
+      </div>
+
+      <div className="grid grid-cols-6 mt-6 gap-4">
+        <div className="col-span-2 border-r items-center grid pr-1">
+          <h3 className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
+            Frameworks & Libraries
+          </h3>
+        </div>
+
+        <div className="col-span-4 flex gap-1 flex-wrap">
+          <Skill Icon={SiReact} label="React & React Native" />
+          <Skill Icon={SiRedux} label="Redux" />
+          <Skill Icon={SiTailwindcss} label="Tailwind CSS" />
+          <Skill Icon={SiExpress} label="Express" />
+          <Skill Icon={SiNodedotjs} label="Node.js" />
+          <Skill Icon={SiCypress} label="Cypress" />
+          <Skill Icon={SiJest} label="Jest" />
+        </div>
+      </div>
+
+      <div className="grid grid-cols-6 mt-6 gap-4">
+        <div className="col-span-2 border-r items-center grid pr-1">
+          <h3 className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
+            Databases & Cloud
+          </h3>
+        </div>
+
+        <div className="col-span-4 flex gap-2 flex-wrap">
+          <Skill Icon={SiPrisma} label="Prisma" />
+          <Skill Icon={SiPostgresql} label="PostgreSQL" />
+          <Skill Icon={SiMongodb} label="MongoDB" />
+          <Skill Icon={SiVercel} label="Vercel" />
+
+        </div>
+      </div>
+
+      <div className="grid grid-cols-6 mt-6 gap-4">
+        <div className="col-span-2 border-r items-center grid pr-1">
+          <h3 className="text-sm font-medium text-zinc-900 dark:text-zinc-100">
+            Software & Tools
+          </h3>
+        </div>
+
+        <div className="col-span-4 flex gap-2 flex-wrap">
+          <Skill Icon={SiGit} label="Git" />
+          <Skill Icon={SiGithub} label="GitHub" />
+          <Skill Icon={SiDocker} label="Docker" />
+          <Skill Icon={SiPostman} label="Postman" />
+          <Skill Icon={SiVisualstudiocode} label="VS Code" />
+          <Skill Icon={SiVite} label="Vite" />
+
         </div>
       </div>
     </div>
@@ -189,9 +278,9 @@ const Home = () => {
     <>
       <Page>
         <Page.Header>
-          <Page.Title>Full-stack developer, freelancer and student.</Page.Title>
+          <Page.Title>Software developer, freelancer and student.</Page.Title>
           <Page.Subtitle>
-            I'm Ville, a full-stack developer and freelancer based in Helsinki,
+            I'm Ville, a software developer and a freelancer based in Helsinki,
             Finland. I'm currently working as a freelance web developer and
             studying computer science at Aalto University.
           </Page.Subtitle>
