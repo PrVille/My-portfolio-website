@@ -192,6 +192,25 @@ const Experience = () => {
         <span className="ml-3">Experience</span>
       </h2>
       <ol className="mt-6 space-y-6">
+      <li className="flex gap-4 items-center">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+            <img className="rounded-full bg-white" src="pandia.jpg" />
+          </div>
+          <div className="flex-1 flex flex-col">
+            <h3 className="w-full text-sm font-medium text-zinc-900 dark:text-zinc-100">
+              Junior Software Developer
+            </h3>
+            <div className="flex justify-between gap-2">
+              <h4 className="text-xs text-zinc-500 dark:text-zinc-400">
+                Pandia Oy
+              </h4>
+              <h4 className="text-xs text-zinc-400 dark:text-zinc-500">
+                2024 — Present
+              </h4>
+            </div>
+          </div>
+        </li>
+
         <li className="flex gap-4 items-center">
           <div className="flex h-10 w-10 items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
             <img className="rounded-full bg-white" src="me.png" />
@@ -205,7 +224,26 @@ const Experience = () => {
                 Self-Employed
               </h4>
               <h4 className="text-xs text-zinc-400 dark:text-zinc-500">
-                2022 — Present
+                2022 — 2024
+              </h4>
+            </div>
+          </div>
+        </li>
+
+        <li className="flex gap-4 items-center">
+          <div className="flex h-10 w-10 items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
+            <img className="rounded-full bg-white" src="aalto.png" />
+          </div>
+          <div className="flex-1 flex flex-col">
+            <h3 className="w-full text-sm font-medium text-zinc-900 dark:text-zinc-100">
+              Aalto University
+            </h3>
+            <div className="flex justify-between gap-2">
+              <h4 className="text-xs text-zinc-500 dark:text-zinc-400">
+                B.Sc. in Computer Science
+              </h4>
+              <h4 className="text-xs text-zinc-400 dark:text-zinc-500">
+                2021 — 2024
               </h4>
             </div>
           </div>
@@ -229,27 +267,9 @@ const Experience = () => {
             </div>
           </div>
         </li>
-
-        <li className="flex gap-4 items-center">
-          <div className="flex h-10 w-10 items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-            <img className="rounded-full bg-white" src="aalto.png" />
-          </div>
-          <div className="flex-1 flex flex-col">
-            <h3 className="w-full text-sm font-medium text-zinc-900 dark:text-zinc-100">
-              Aalto University
-            </h3>
-            <div className="flex justify-between gap-2">
-              <h4 className="text-xs text-zinc-500 dark:text-zinc-400">
-                Computer Science Student
-              </h4>
-              <h4 className="text-xs text-zinc-400 dark:text-zinc-500">
-                2021 — Present
-              </h4>
-            </div>
-          </div>
-        </li>
       </ol>
-      <a
+
+      {/* <a
         className="inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-full"
         href="Ville_Prami_CV_ENG.pdf"
         download
@@ -268,7 +288,7 @@ const Experience = () => {
             strokeLinejoin="round"
           ></path>
         </svg>
-      </a>
+      </a> */}
     </div>
   )
 }
@@ -278,11 +298,11 @@ const Home = () => {
     <>
       <Page>
         <Page.Header>
-          <Page.Title>Software developer, freelancer and student.</Page.Title>
+          <Page.Title>Software Developer</Page.Title>
           <Page.Subtitle>
-            I'm Ville, a software developer and a freelancer based in Helsinki,
-            Finland. I'm currently working as a freelance web developer and
-            studying computer science at Aalto University.
+            I'm Ville Prami, a software developer with a Bachelor's degree in Science and Technology,
+            majoring in Computer Science from Aalto University, based in Helsinki, Finland.
+            I'm currently working as a software developer at Pandia Oy.
           </Page.Subtitle>
           <div className="mt-4 flex gap-4 items-center">
             <a

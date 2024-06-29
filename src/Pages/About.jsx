@@ -28,20 +28,10 @@ const About = () => {
           <h1 className="text-4xl font-bold text-zinc-800 dark:text-zinc-100 sm:text-5xl">
             Hello there! My name is Ville Prami.
           </h1>
-          <div className="mt-10 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+          <div className="mt-10 space-y-14 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I am a Computer Science student currently studying at Aalto
-              University in Helsinki, Finland. As a student, I am constantly
-              seeking new challenges and learning experiences to enhance my
-              knowledge and skills in the field of computer science.
-            </p>
-            <p>
-              Apart from my academic pursuits, I am also a freelance web
-              developer with a passion for designing and developing websites
-              that are both visually appealing and user-friendly. Working as a
-              freelance web developer has given me the opportunity to work with
-              a diverse range of clients, enabling me to build strong
-              relationships and deliver high-quality results.
+            As a passionate software developer with a Bachelor's degree in Science and Technology, majoring in Computer Science with a minor in Information Technology from Aalto University, I am excited to bring my skills and experiences to new challenges in the field of software development.
+            I am dedicated to continuing my professional growth and contributing effectively to my team. I thrive in collaborative environments and am always eager to learn and adapt to new technologies. I am committed to building efficient, scalable, and user-friendly software solutions that make a positive impact.
             </p>
             <p>
               When I am not working on coding or developing websites, I love to

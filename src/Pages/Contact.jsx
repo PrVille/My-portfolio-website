@@ -188,7 +188,7 @@ const Contact = () => {
             <li className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40 flex">
               <a
                 className="group flex text-sm font-medium text-zinc-800 transition hover:text-sky-500 dark:text-zinc-200 dark:hover:text-sky-500"
-                href="mailto:ville.prami@aalto.fi"
+                href="mailto:ville.prami@outlook.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -202,7 +202,7 @@ const Contact = () => {
                     d="M6 5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6Zm.245 2.187a.75.75 0 0 0-.99 1.126l6.25 5.5a.75.75 0 0 0 .99 0l6.25-5.5a.75.75 0 0 0-.99-1.126L12 12.251 6.245 7.187Z"
                   ></path>
                 </svg>
-                <span className="ml-4">ville.prami@aalto.fi</span>{" "}
+                <span className="ml-4">ville.prami@outlook.com</span>{" "}
               </a>
             </li>
           </ul>
