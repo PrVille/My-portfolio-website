@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom"
-import VisitorCounter from "../VisitorCounter"
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -47,14 +46,13 @@ const Footer = () => {
                     © 2023 Ville Prami. All rights reserved.
                   </p>
                 </div>
-                <VisitorCounter />
               </div>
             </div>
           </div>
         </div>
       </div>
     </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
